@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FieldNameValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Name=VLOOKUP( $ObjectType.Growing_Field__c.Fields.Name,  $ObjectType.Growing_Field__c.Fields.Name , Name)</errorConditionFormula>
+    <errorMessage>Sorry. The name has already existed.</errorMessage>
+</ValidationRule>

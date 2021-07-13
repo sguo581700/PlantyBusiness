@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plant_with_Customized_Light</fullName>
+    <active>true</active>
+    <label>Plant with Customized Light</label>
+    <picklistValues>
+        <picklist>Light_Requirement__c</picklist>
+        <values>
+            <fullName>dense shade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>full shade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>full sun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>light shade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>not defined</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>part shade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>part sun</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plant_Types__c</picklist>
+        <values>
+            <fullName>Anthocerotophyta %28hornworts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bryophyta %28mosses%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charophyta %28e%2Eg%2Estoneworts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chlorophyta %28chlorophytes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cycadophyta %28cycads%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ginkgophyta %28ginkgo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gnetophyta %28gnetophytes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lycopodiophyta %28club mosses%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magnoliophyta %28flowering plants%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marchantiophyta %28liverworts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinophyta %28conifers%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polypodiophyta %28ferns%2C whisk ferns %26 horsetails%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

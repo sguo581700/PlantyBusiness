@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>website_Format_Rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>REGEX(WebSite__c ,&quot;^(https://[A-Za-z]+\\.)([A-Za-z0-9])+\\.(com|net|org)$&quot;)</errorConditionFormula>
+    <errorMessage>The input does not match a website pattern!</errorMessage>
+</ValidationRule>

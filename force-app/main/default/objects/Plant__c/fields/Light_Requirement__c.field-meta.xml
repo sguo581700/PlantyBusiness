@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Light_Requirement__c</fullName>
+    <externalId>false</externalId>
+    <label>Light Requirement</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>not defined</fullName>
+                <default>true</default>
+                <label>not defined</label>
+            </value>
+            <value>
+                <fullName>full sun</fullName>
+                <default>false</default>
+                <label>full sun</label>
+            </value>
+            <value>
+                <fullName>part sun</fullName>
+                <default>false</default>
+                <label>part sun</label>
+            </value>
+            <value>
+                <fullName>light shade</fullName>
+                <default>false</default>
+                <label>light shade</label>
+            </value>
+            <value>
+                <fullName>part shade</fullName>
+                <default>false</default>
+                <label>part shade</label>
+            </value>
+            <value>
+                <fullName>full shade</fullName>
+                <default>false</default>
+                <label>full shade</label>
+            </value>
+            <value>
+                <fullName>dense shade</fullName>
+                <default>false</default>
+                <label>dense shade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
